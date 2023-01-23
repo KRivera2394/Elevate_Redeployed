@@ -1,0 +1,94 @@
+
+
+body {
+  background-color: #0089d294;
+  background-image: linear-gradient(#0089d294, rgb(95, 183, 255));
+  overflow:scroll
+  
+}
+
+.sideNavCont {
+  
+  display: flex;
+  
+}
+
+#sideN{
+  overflow: hidden;
+  
+}
+
+aside {
+  background: rgba(55, 166, 222, 0.718);
+  box-shadow: 0 10px 15px rgb(0, 0, 0);
+backdrop-filter: blur(4.4px);
+-webkit-backdrop-filter: blur(4.4px);
+border: 1px solid rgba(55, 165, 222, 1);
+  width: 16.75rem;
+  position: fixed;
+  z-index: 1;
+  height: 180vh;
+  margin-top: -10%;
+  padding-top: 19%; 
+  /* overflow: hidden; */
+  overflow: hidden;
+}
+
+.btn-container {
+  position: fixed;
+}
+
+.ca a {
+  color: #f9fafb;
+  text-decoration: none;
+  font-size: 1.75rem;
+  font-weight: 600;
+  display: block;
+  margin: 20px;
+}
+
+.text-dark button {
+  cursor: pointer;
+  margin: 1.25rem;
+  
+  padding: 0.5rem 1rem;
+  /* background-color: #f9fafb; */
+}
+
+.navList {
+  /* padding-top: 150%; */
+  height: 50%;
+  text-align: center;
+  
+  overflow: auto;
+  z-index: 5;
+}
+
+.navList > a {
+  border-bottom: 1px solid skyblue;
+}
+
+.ribby {
+  width: 50%;
+
+  cursor: pointer;
+
+}
+
+.ribButt {
+  cursor: pointer;
+  width: 18%;
+  padding: 0%;
+
+  margin-bottom: 2%;
+  margin-left: -1.3%;
+  z-index: 2;
+  position: fixed;
+}
+/* .sideNavCont {
+  display: none;
+} */
+
+/* .aVid{
+    margin-left: 22%;
+  } */
